@@ -1,0 +1,14 @@
+{
+  "users": ["alice", "bob", "admin"],
+  "menu": [
+    {
+      "name": "MENU1", "allow": ["alice"]
+    },
+    {
+      "name": "MENU2", "allow": ["bob"]
+    },
+    {
+      "name": "MENU3", "allow": ["alice", "bob"]
+    }
+  ]
+}
